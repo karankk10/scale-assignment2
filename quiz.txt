@@ -1,0 +1,18 @@
+1) Kubernetes is different, from a monolithic PaaS because it operates at the container level. It provides PaaS features such as deployment and scaling. It is flexible. Can be used for applications without requiring the deployment of source code or enforcing specific CI/CD workflows. There are no built application level services but users have the freedom to choose and access them through mechanisms like the Open Service Broker. Kubernetes doesn't impose logging, monitoring or alerting solutions allowing users to use their preferred options. It doesn't mandate a configuration language. Doesn't offer comprehensive machine configuration or self healing systems. Unlike orchestration methods Kubernetes offers modular control processes eliminating the need, for rigid workflows and centralized control.
+
+2) There are orchestration tools that cater to specific needs and preferences. Some notable alternatives, to Kubernetes include;
+
+1. Docker Swarm;
+  Docker Swarm is a solution for clustering and orchestrating Docker containers. It is known for its simplicity in setup making it a popular choice for smaller scale deployments.
+
+2. Apache Mesos;
+  Mesos acts as a distributed systems kernel of managing types of workloads including containers. It offers resource sharing across applications and frameworks.
+
+3. Amazon ECS (Elastic Container Service);
+  ECS is a managed container orchestration service provided by Amazon Web Services (AWS). It simplifies the deployment and management of Docker containers.
+
+4. OpenShift;
+  OpenShift, developed by Red Hat extends Kubernetes. Incorporates developer and operational tools. It provides a platform for deploying, managing and scaling applications.
+
+5. Nomad;
+  Nomad, created by HashiCorp is an flexible orchestration tool, for both microservices and batch workloads. Its simplicity allows for setup and usage.
